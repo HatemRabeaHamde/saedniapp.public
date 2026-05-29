@@ -231,6 +231,48 @@ POST   /api/v1/reports/{id}/respond
 }
 ```
 
+## Screenshots
+
+The screenshots below highlight the real admin and landing experiences that sit on top of the backend API.
+
+> Before publishing, keep these images free of real customer names, phone numbers, invoice IDs, tokens, and production URLs.
+
+### Admin Login
+
+Secure admin entry point with Arabic RTL support and brand identity.
+
+![Admin Login](docs/screenshots/01-login.png)
+
+### Dashboard Overview
+
+Operational dashboard with users, active subscriptions, pending bookings, reports, and recent activity.
+
+![Dashboard Overview](docs/screenshots/02-dashboard.png)
+
+### Subscription Plans
+
+Plan management with manufacturer-origin pricing, towing price, rental car price, and activation status.
+
+![Subscription Plans](docs/screenshots/03-subscription-plans.png)
+
+### Add Subscription Plan
+
+Admin form for bilingual plan names, plan type, origin-based pricing, towing price, and replacement car price.
+
+![Add Subscription Plan](docs/screenshots/04-add-subscription-plan.png)
+
+### Payments
+
+Payment operations page with purpose filtering, paid/pending/failed states, invoice tracking, and payment review.
+
+![Payments](docs/screenshots/05-payments.png)
+
+### Landing Page
+
+Public Arabic landing page for the mobile service, showing the product positioning and brand experience.
+
+![Landing Page](docs/screenshots/06-landing-page.png)
+
 ## Code Snapshots
 
 These snippets show the engineering style used in the project. They are copied from real project files.
@@ -545,4 +587,3 @@ public/report-files
 - The system uses enums and resources instead of scattered strings and ad-hoc JSON.
 - Feature tests cover the highest-risk domain: payments and state transitions.
 - Arabic/English support is built into user-facing responses and dashboard text.
-
